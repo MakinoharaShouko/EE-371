@@ -1,0 +1,4 @@
+module display(count, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5);
+	input logic [4:0] count;
+	output logic [6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;  // hex displays
+endmodule

@@ -1,0 +1,8 @@
+module divider_modified (clk, reset, LA, EB, s, DataA, DataB, R, Q, Done);
+	parameter n = 8, logn = 3;
+	input logic clk, reset, s, LA, EB;
+	input logic [n-1:0] DataA, DataB;
+	output logic [n-1:0] R, Q;
+	output logic Done;
+	reg [n-1:0] A, B;
+endmodule

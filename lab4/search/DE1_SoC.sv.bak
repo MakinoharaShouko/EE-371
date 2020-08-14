@@ -1,0 +1,5 @@
+module DE1_SoC (SW, KEY, HEX0);
+	input logic [9:0] SW;
+	input logic [3:0] KEY;
+	output logic [6:0] HEX0;
+endmodule

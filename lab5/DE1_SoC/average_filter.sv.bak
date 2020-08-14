@@ -1,0 +1,47 @@
+module average_filter (data_in, data_out, clk);
+	input logic [23:0] data_in;
+	input logic clk;
+	output logic [23:0] data_out;
+	logic [23:0] data1, data2, data3, data4, data5, data6, data7;
+	
+	always_ff@(posedge clk) begin
+		data1 <= data_in;
+		data2 <= data1;
+		data3 <= data2;
+		data4 <= data3;
+		data5 <= data4;
+		data6 <= data5;
+		data7 <= data6;
+	end
+	
+	//assign data_out = data_in;
+	assign data_out = (data_in + data1 + data2 + data3 + data4
+							+ data5 + data6 + data7) / 8;
+endmodule
+
+module average_filter_testbench ();
+	logic [23:0] data_in, data_out;
+	logic clk;
+	
+	average_filter af (.*);
+	
+	parameter CLOCK_PERIOD = 100;
+	initial begin
+		clk <= 0;
+		forever #(CLOCK_PERIOD/2) clk <= ~clk;
+	end
+	
+	initial begin
+		data_in <= 4; @(posedge clk);
+		data_in <= 5; @(posedge clk);
+		data_in <= 4; @(posedge clk);
+		data_in <= 5; @(posedge clk);
+		data_in <= 4; @(posedge clk);
+		data_in <= 5; @(posedge clk);
+		data_in <= 4; @(posedge clk);
+		data_in <= 5; @(posedge clk);
+		data_in <= 4; @(posedge clk);
+		data_in <= 5; @(posedge clk);
+		$stop;
+	end
+endmodule

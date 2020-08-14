@@ -1,0 +1,310 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/simulation/modelsim
+vAltera_UP_Audio_Bit_Counter
+Z1 !s110 1573878951
+!i10b 1
+!s100 J2Tb5SPZN>>^6S@MM9o:c1
+IYRmkf[;boaGDaHAdB5@P^1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1573419954
+8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_audio_bit_counter.v
+FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_audio_bit_counter.v
+Z4 L0 49
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1573878951.000000
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_audio_bit_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_audio_bit_counter.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work {+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC}
+Z9 tCvgOpt 0
+n@altera_@u@p_@audio_@bit_@counter
+vAltera_UP_Audio_In_Deserializer
+R1
+!i10b 1
+!s100 MnK8@IQLcda;1gGBW7@Tz0
+IVIi?dMT4ofF:Nn`DDLJ:43
+R2
+R0
+R3
+8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_audio_in_deserializer.v
+FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_audio_in_deserializer.v
+Z10 L0 47
+R5
+r1
+!s85 0
+31
+Z11 !s108 1573878950.000000
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_audio_in_deserializer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_audio_in_deserializer.v|
+!i113 1
+R7
+R8
+R9
+n@altera_@u@p_@audio_@in_@deserializer
+vAltera_UP_Audio_Out_Serializer
+R1
+!i10b 1
+!s100 BllhdjOFFm6Rj]o@Xid882
+I]lee94jo^6@lg8D`VfRLg2
+R2
+R0
+R3
+8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_audio_out_serializer.v
+FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_audio_out_serializer.v
+R10
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_audio_out_serializer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_audio_out_serializer.v|
+!i113 1
+R7
+R8
+R9
+n@altera_@u@p_@audio_@out_@serializer
+vAltera_UP_Clock_Edge
+Z12 !s110 1573878950
+!i10b 1
+!s100 XaX6^HY04T3X?D32?HdN>2
+IZk1Bi[<:1YRjBWW2>1P;T0
+R2
+R0
+R3
+8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_clock_edge.v
+FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_clock_edge.v
+Z13 L0 48
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_clock_edge.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_clock_edge.v|
+!i113 1
+R7
+R8
+R9
+n@altera_@u@p_@clock_@edge
+vAltera_UP_I2C
+R12
+!i10b 1
+!s100 JU94J3RToJ0DChmlIi^B43
+I17LYI?d52n5Xz7=Bdi_kQ0
+R2
+R0
+R3
+8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_i2c.v
+FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_i2c.v
+R13
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_i2c.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_i2c.v|
+!i113 1
+R7
+R8
+R9
+n@altera_@u@p_@i2@c
+vAltera_UP_I2C_AV_Auto_Initialize
+R12
+!i10b 1
+!s100 TbIA;9787GSRoV9be_N2^2
+In:OB80mfLiSN4]aU:j?>G2
+R2
+R0
+R3
+8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_i2c_av_auto_initialize.v
+FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_i2c_av_auto_initialize.v
+R13
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_i2c_av_auto_initialize.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_i2c_av_auto_initialize.v|
+!i113 1
+R7
+R8
+R9
+n@altera_@u@p_@i2@c_@a@v_@auto_@initialize
+vAltera_UP_Slow_Clock_Generator
+R12
+!i10b 1
+!s100 U@B3NehPQRXcdeI<e=@I53
+I2`F;Nb;A^oD@KkMJPW^@90
+R2
+R0
+R3
+8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_slow_clock_generator.v
+FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_slow_clock_generator.v
+L0 53
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_slow_clock_generator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_slow_clock_generator.v|
+!i113 1
+R7
+R8
+R9
+n@altera_@u@p_@slow_@clock_@generator
+vAltera_UP_SYNC_FIFO
+R1
+!i10b 1
+!s100 jDg=^5VOBFbFho_;gZbiA1
+IAg<AV:Zh@lZ]n`PKNLUh52
+R2
+R0
+R3
+8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_sync_fifo.v
+FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_sync_fifo.v
+R10
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_sync_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_sync_fifo.v|
+!i113 1
+R7
+R8
+R9
+n@altera_@u@p_@s@y@n@c_@f@i@f@o
+vaudio_and_video_config
+R12
+!i10b 1
+!s100 z3>_mDg4hMjn4VjXHn00U3
+Imb<Hm6AkZZGF4MEXKf5RS3
+R2
+R0
+R3
+8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/audio_and_video_config.v
+FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/audio_and_video_config.v
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/audio_and_video_config.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/audio_and_video_config.v|
+!i113 1
+R7
+R8
+R9
+vaudio_codec
+R12
+!i10b 1
+!s100 43h1ad@K@aG98IRVc4i1M1
+I3>jM7EkPX2an5>dz_dKSM2
+R2
+R0
+R3
+8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/audio_codec.v
+FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/audio_codec.v
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/audio_codec.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/audio_codec.v|
+!i113 1
+R7
+R8
+R9
+vaverage_filter
+Z14 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R1
+!i10b 1
+!s100 jMkWh_jELo96z<Lo=A<]?3
+IaXGl4Zmka>ZL8GzEFSHaz3
+R2
+Z15 !s105 average_filter_sv_unit
+S1
+R0
+Z16 w1573878812
+Z17 8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/average_filter.sv
+Z18 FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/average_filter.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+Z19 !s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/average_filter.sv|
+Z20 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/average_filter.sv|
+!i113 1
+Z21 o-sv -work work
+Z22 !s92 -sv -work work {+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC}
+R9
+vaverage_filter_testbench
+R14
+R1
+!i10b 1
+!s100 c:OKOg@b;fh]URfh^zfLW1
+I9kgbI@_]I2?i5ngAgWKH:2
+R2
+R15
+S1
+R0
+R16
+R17
+R18
+L0 51
+R5
+r1
+!s85 0
+31
+R6
+R19
+R20
+!i113 1
+R21
+R22
+R9
+vclock_generator
+R12
+!i10b 1
+!s100 39OA<gKn`aijkLgT:8]8i2
+IUzg>VY5RBn:3oY5[M8ab]0
+R2
+R0
+R3
+8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/clock_generator.v
+FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/clock_generator.v
+R13
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/clock_generator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/clock_generator.v|
+!i113 1
+R7
+R8
+R9

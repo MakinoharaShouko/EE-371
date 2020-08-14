@@ -1,0 +1,111 @@
+# Reading D:/Software/Quartus/modelsim_ase/tcl/vsim/pref.tcl
+# do task2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Software/Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab2/lab2_task2 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task2/ram32x4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:12:24 on Oct 15,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task2" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task2/ram32x4.v 
+# -- Compiling module ram32x4
+# 
+# Top level modules:
+# 	ram32x4
+# End time: 22:12:24 on Oct 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab2/lab2_task2 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task2/address_display.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:12:24 on Oct 15,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task2" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task2/address_display.sv 
+# -- Compiling module address_display
+# 
+# Top level modules:
+# 	address_display
+# End time: 22:12:24 on Oct 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab2/lab2_task2 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task2/display.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:12:24 on Oct 15,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task2" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task2/display.sv 
+# -- Compiling module display
+# -- Compiling module display_testbench
+# 
+# Top level modules:
+# 	display_testbench
+# End time: 22:12:24 on Oct 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab2/lab2_task2 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task2/seg7.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:12:24 on Oct 15,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task2" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task2/seg7.sv 
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# End time: 22:12:24 on Oct 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab2/lab2_task2 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task2/task2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:12:24 on Oct 15,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task2" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task2/task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_testbench
+# 
+# Top level modules:
+# 	task2_testbench
+# End time: 22:12:24 on Oct 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim -gui -l msim_transcript work.task2_testbench -Lf altera_mf_ver
+# vsim -gui -l msim_transcript work.task2_testbench -Lf altera_mf_ver 
+# Start time: 22:12:43 on Oct 15,2019
+# Loading sv_std.std
+# Loading work.task2_testbench
+# Loading work.task2
+# Loading work.ram32x4
+# Loading altera_mf_ver.altsyncram
+# Loading work.display
+# Loading work.address_display
+# Loading work.seg7
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position end  sim:/task2_testbench/SW
+add wave -position end  sim:/task2_testbench/HEX0
+add wave -position end  sim:/task2_testbench/HEX2
+add wave -position end  sim:/task2_testbench/HEX4
+add wave -position end  sim:/task2_testbench/HEX5
+add wave -position end  sim:/task2_testbench/clk
+run -all
+# ** Note: $stop    : C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task2/task2.sv(42)
+#    Time: 750 ps  Iteration: 1  Instance: /task2_testbench
+# Break in Module task2_testbench at C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task2/task2.sv line 42
+vsim work.display_testbench
+# End time: 22:14:01 on Oct 15,2019, Elapsed time: 0:01:18
+# Errors: 0, Warnings: 0
+# vsim work.display_testbench 
+# Start time: 22:14:01 on Oct 15,2019
+# Loading sv_std.std
+# Loading work.display_testbench
+# Loading work.display
+# Loading work.address_display
+# Loading work.seg7
+add wave -position end  sim:/display_testbench/SW
+add wave -position end  sim:/display_testbench/q
+add wave -position end  sim:/display_testbench/HEX0
+add wave -position end  sim:/display_testbench/HEX2
+add wave -position end  sim:/display_testbench/HEX4
+add wave -position end  sim:/display_testbench/HEX5
+run -all
+# ** Note: $stop    : C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task2/display.sv(28)
+#    Time: 30 ps  Iteration: 0  Instance: /display_testbench
+# Break in Module display_testbench at C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task2/display.sv line 28
+# End time: 22:15:52 on Oct 15,2019, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 0

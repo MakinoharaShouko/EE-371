@@ -1,0 +1,92 @@
+# Reading D:/Software/Quartus/modelsim_ase/tcl/vsim/pref.tcl
+# do divider_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Software/Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/hw4 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/hw4/shiftlne.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:54:49 on Nov 01,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/hw4" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/hw4/shiftlne.sv 
+# -- Compiling module shiftlne
+# 
+# Top level modules:
+# 	shiftlne
+# End time: 21:54:49 on Nov 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/hw4 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/hw4/downcount.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:54:49 on Nov 01,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/hw4" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/hw4/downcount.sv 
+# -- Compiling module downcount
+# 
+# Top level modules:
+# 	downcount
+# End time: 21:54:49 on Nov 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/hw4 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/hw4/muxdff.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:54:49 on Nov 01,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/hw4" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/hw4/muxdff.sv 
+# -- Compiling module muxdff
+# 
+# Top level modules:
+# 	muxdff
+# End time: 21:54:49 on Nov 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/hw4 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/hw4/regne.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:54:49 on Nov 01,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/hw4" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/hw4/regne.sv 
+# -- Compiling module regne
+# 
+# Top level modules:
+# 	regne
+# End time: 21:54:49 on Nov 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/hw4 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/hw4/divider.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:54:49 on Nov 01,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/hw4" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/hw4/divider.sv 
+# -- Compiling module divider
+# -- Compiling module divider_testbench
+# 
+# Top level modules:
+# 	divider_testbench
+# End time: 21:54:50 on Nov 01,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vsim work.divider_testbench
+# vsim work.divider_testbench 
+# Start time: 21:54:55 on Nov 01,2019
+# Loading sv_std.std
+# Loading work.divider_testbench
+# Loading work.divider
+# Loading work.regne
+# Loading work.shiftlne
+# Loading work.muxdff
+# Loading work.downcount
+# ** Warning: (vsim-3015) C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/hw4/divider.sv(79): [PCDPC] - Port size (3) does not match connection size (32) for port 'R'. The port definition is at: C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/hw4/downcount.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /divider_testbench/d/Counter File: C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/hw4/downcount.sv
+add wave -position end  sim:/divider_testbench/Clock
+add wave -position end  sim:/divider_testbench/Resetn
+add wave -position end  sim:/divider_testbench/s
+add wave -position end  sim:/divider_testbench/LA
+add wave -position end  sim:/divider_testbench/EB
+add wave -position end  sim:/divider_testbench/DataA
+add wave -position end  sim:/divider_testbench/DataB
+add wave -position end  sim:/divider_testbench/R
+add wave -position end  sim:/divider_testbench/Q
+add wave -position end  sim:/divider_testbench/Done
+run -all
+# ** Note: $stop    : C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/hw4/divider.sv(114)
+#    Time: 850 ps  Iteration: 1  Instance: /divider_testbench
+# Break in Module divider_testbench at C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/hw4/divider.sv line 114
+# End time: 21:55:24 on Nov 01,2019, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 1

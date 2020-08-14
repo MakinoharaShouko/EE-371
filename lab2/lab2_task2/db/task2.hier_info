@@ -1,0 +1,252 @@
+|task2
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN1
+SW[6] => SW[6].IN1
+SW[7] => SW[7].IN1
+SW[8] => SW[8].IN1
+SW[9] => SW[9].IN1
+HEX0[0] <= display:dis.port2
+HEX0[1] <= display:dis.port2
+HEX0[2] <= display:dis.port2
+HEX0[3] <= display:dis.port2
+HEX0[4] <= display:dis.port2
+HEX0[5] <= display:dis.port2
+HEX0[6] <= display:dis.port2
+HEX2[0] <= display:dis.port3
+HEX2[1] <= display:dis.port3
+HEX2[2] <= display:dis.port3
+HEX2[3] <= display:dis.port3
+HEX2[4] <= display:dis.port3
+HEX2[5] <= display:dis.port3
+HEX2[6] <= display:dis.port3
+HEX4[0] <= display:dis.port4
+HEX4[1] <= display:dis.port4
+HEX4[2] <= display:dis.port4
+HEX4[3] <= display:dis.port4
+HEX4[4] <= display:dis.port4
+HEX4[5] <= display:dis.port4
+HEX4[6] <= display:dis.port4
+HEX5[0] <= display:dis.port5
+HEX5[1] <= display:dis.port5
+HEX5[2] <= display:dis.port5
+HEX5[3] <= display:dis.port5
+HEX5[4] <= display:dis.port5
+HEX5[5] <= display:dis.port5
+HEX5[6] <= display:dis.port5
+KEY[0] => ram32x4:ram.clock
+KEY[1] => ~NO_FANOUT~
+KEY[2] => ~NO_FANOUT~
+KEY[3] => ~NO_FANOUT~
+
+
+|task2|ram32x4:ram
+address[0] => address[0].IN1
+address[1] => address[1].IN1
+address[2] => address[2].IN1
+address[3] => address[3].IN1
+address[4] => address[4].IN1
+clock => clock.IN1
+data[0] => data[0].IN1
+data[1] => data[1].IN1
+data[2] => data[2].IN1
+data[3] => data[3].IN1
+wren => wren.IN1
+q[0] <= altsyncram:altsyncram_component.q_a
+q[1] <= altsyncram:altsyncram_component.q_a
+q[2] <= altsyncram:altsyncram_component.q_a
+q[3] <= altsyncram:altsyncram_component.q_a
+
+
+|task2|ram32x4:ram|altsyncram:altsyncram_component
+wren_a => altsyncram_t6o1:auto_generated.wren_a
+rden_a => ~NO_FANOUT~
+wren_b => ~NO_FANOUT~
+rden_b => ~NO_FANOUT~
+data_a[0] => altsyncram_t6o1:auto_generated.data_a[0]
+data_a[1] => altsyncram_t6o1:auto_generated.data_a[1]
+data_a[2] => altsyncram_t6o1:auto_generated.data_a[2]
+data_a[3] => altsyncram_t6o1:auto_generated.data_a[3]
+data_b[0] => ~NO_FANOUT~
+address_a[0] => altsyncram_t6o1:auto_generated.address_a[0]
+address_a[1] => altsyncram_t6o1:auto_generated.address_a[1]
+address_a[2] => altsyncram_t6o1:auto_generated.address_a[2]
+address_a[3] => altsyncram_t6o1:auto_generated.address_a[3]
+address_a[4] => altsyncram_t6o1:auto_generated.address_a[4]
+address_b[0] => ~NO_FANOUT~
+addressstall_a => ~NO_FANOUT~
+addressstall_b => ~NO_FANOUT~
+clock0 => altsyncram_t6o1:auto_generated.clock0
+clock1 => ~NO_FANOUT~
+clocken0 => ~NO_FANOUT~
+clocken1 => ~NO_FANOUT~
+clocken2 => ~NO_FANOUT~
+clocken3 => ~NO_FANOUT~
+aclr0 => ~NO_FANOUT~
+aclr1 => ~NO_FANOUT~
+byteena_a[0] => ~NO_FANOUT~
+byteena_b[0] => ~NO_FANOUT~
+q_a[0] <= altsyncram_t6o1:auto_generated.q_a[0]
+q_a[1] <= altsyncram_t6o1:auto_generated.q_a[1]
+q_a[2] <= altsyncram_t6o1:auto_generated.q_a[2]
+q_a[3] <= altsyncram_t6o1:auto_generated.q_a[3]
+q_b[0] <= <GND>
+eccstatus[0] <= <GND>
+eccstatus[1] <= <GND>
+eccstatus[2] <= <GND>
+
+
+|task2|ram32x4:ram|altsyncram:altsyncram_component|altsyncram_t6o1:auto_generated
+address_a[0] => ram_block1a0.PORTAADDR
+address_a[0] => ram_block1a1.PORTAADDR
+address_a[0] => ram_block1a2.PORTAADDR
+address_a[0] => ram_block1a3.PORTAADDR
+address_a[1] => ram_block1a0.PORTAADDR1
+address_a[1] => ram_block1a1.PORTAADDR1
+address_a[1] => ram_block1a2.PORTAADDR1
+address_a[1] => ram_block1a3.PORTAADDR1
+address_a[2] => ram_block1a0.PORTAADDR2
+address_a[2] => ram_block1a1.PORTAADDR2
+address_a[2] => ram_block1a2.PORTAADDR2
+address_a[2] => ram_block1a3.PORTAADDR2
+address_a[3] => ram_block1a0.PORTAADDR3
+address_a[3] => ram_block1a1.PORTAADDR3
+address_a[3] => ram_block1a2.PORTAADDR3
+address_a[3] => ram_block1a3.PORTAADDR3
+address_a[4] => ram_block1a0.PORTAADDR4
+address_a[4] => ram_block1a1.PORTAADDR4
+address_a[4] => ram_block1a2.PORTAADDR4
+address_a[4] => ram_block1a3.PORTAADDR4
+clock0 => ram_block1a0.CLK0
+clock0 => ram_block1a1.CLK0
+clock0 => ram_block1a2.CLK0
+clock0 => ram_block1a3.CLK0
+data_a[0] => ram_block1a0.PORTADATAIN
+data_a[1] => ram_block1a1.PORTADATAIN
+data_a[2] => ram_block1a2.PORTADATAIN
+data_a[3] => ram_block1a3.PORTADATAIN
+q_a[0] <= ram_block1a0.PORTADATAOUT
+q_a[1] <= ram_block1a1.PORTADATAOUT
+q_a[2] <= ram_block1a2.PORTADATAOUT
+q_a[3] <= ram_block1a3.PORTADATAOUT
+wren_a => ram_block1a0.PORTAWE
+wren_a => ram_block1a1.PORTAWE
+wren_a => ram_block1a2.PORTAWE
+wren_a => ram_block1a3.PORTAWE
+
+
+|task2|display:dis
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN1
+SW[6] => SW[6].IN1
+SW[7] => SW[7].IN1
+SW[8] => SW[8].IN1
+SW[9] => ~NO_FANOUT~
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+HEX0[0] <= seg7:out.leds
+HEX0[1] <= seg7:out.leds
+HEX0[2] <= seg7:out.leds
+HEX0[3] <= seg7:out.leds
+HEX0[4] <= seg7:out.leds
+HEX0[5] <= seg7:out.leds
+HEX0[6] <= seg7:out.leds
+HEX2[0] <= seg7:in.leds
+HEX2[1] <= seg7:in.leds
+HEX2[2] <= seg7:in.leds
+HEX2[3] <= seg7:in.leds
+HEX2[4] <= seg7:in.leds
+HEX2[5] <= seg7:in.leds
+HEX2[6] <= seg7:in.leds
+HEX4[0] <= address_display:ad.LED2
+HEX4[1] <= address_display:ad.LED2
+HEX4[2] <= address_display:ad.LED2
+HEX4[3] <= address_display:ad.LED2
+HEX4[4] <= address_display:ad.LED2
+HEX4[5] <= address_display:ad.LED2
+HEX4[6] <= address_display:ad.LED2
+HEX5[0] <= address_display:ad.LED1
+HEX5[1] <= address_display:ad.LED1
+HEX5[2] <= address_display:ad.LED1
+HEX5[3] <= address_display:ad.LED1
+HEX5[4] <= address_display:ad.LED1
+HEX5[5] <= address_display:ad.LED1
+HEX5[6] <= address_display:ad.LED1
+
+
+|task2|display:dis|address_display:ad
+address[0] => address[0].IN1
+address[1] => address[1].IN1
+address[2] => address[2].IN1
+address[3] => address[3].IN1
+address[4] => LED1[5].DATAIN
+address[4] => LED1[4].DATAIN
+address[4] => LED1[3].DATAIN
+address[4] => LED1[0].DATAIN
+LED1[0] <= address[4].DB_MAX_OUTPUT_PORT_TYPE
+LED1[1] <= <GND>
+LED1[2] <= <GND>
+LED1[3] <= address[4].DB_MAX_OUTPUT_PORT_TYPE
+LED1[4] <= address[4].DB_MAX_OUTPUT_PORT_TYPE
+LED1[5] <= address[4].DB_MAX_OUTPUT_PORT_TYPE
+LED1[6] <= <VCC>
+LED2[0] <= seg7:s7.leds
+LED2[1] <= seg7:s7.leds
+LED2[2] <= seg7:s7.leds
+LED2[3] <= seg7:s7.leds
+LED2[4] <= seg7:s7.leds
+LED2[5] <= seg7:s7.leds
+LED2[6] <= seg7:s7.leds
+
+
+|task2|display:dis|address_display:ad|seg7:s7
+val[0] => Decoder0.IN3
+val[1] => Decoder0.IN2
+val[2] => Decoder0.IN1
+val[3] => Decoder0.IN0
+leds[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+leds[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+leds[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+leds[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|task2|display:dis|seg7:in
+val[0] => Decoder0.IN3
+val[1] => Decoder0.IN2
+val[2] => Decoder0.IN1
+val[3] => Decoder0.IN0
+leds[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+leds[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+leds[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+leds[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|task2|display:dis|seg7:out
+val[0] => Decoder0.IN3
+val[1] => Decoder0.IN2
+val[2] => Decoder0.IN1
+val[3] => Decoder0.IN0
+leds[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+leds[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+leds[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+leds[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

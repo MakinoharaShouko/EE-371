@@ -1,0 +1,4 @@
+module flipFlopAdder (x, y, Q, C, S);
+	input logic x, y;
+	logic Q;
+	output logic C, S;

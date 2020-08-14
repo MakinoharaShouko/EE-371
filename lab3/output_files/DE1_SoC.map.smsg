@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at line_drawer.sv(52): always construct contains both blocking and non-blocking assignments File: C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/line_drawer.sv Line: 52

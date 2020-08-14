@@ -1,0 +1,188 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/simulation/modelsim
+vDE1_SoC
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1572455822
+!i10b 1
+!s100 5fb8S>o6M8E5cTEU22>;A3
+IHPVh6o>0M7;M86229WOB<2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 DE1_SoC_sv_unit
+S1
+R0
+Z5 w1572455791
+Z6 8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/DE1_SoC.sv
+Z7 FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/DE1_SoC.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1572455822.000000
+Z10 !s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/DE1_SoC.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/DE1_SoC.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3}
+Z14 tCvgOpt 0
+n@d@e1_@so@c
+vDE1_SoC_testbench
+R1
+R2
+!i10b 1
+!s100 ;HEU4YOg<fN>a`:l7AXIf3
+Ih]DRHf@Gb=ddERLdX46Z21
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 52
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@d@e1_@so@c_testbench
+vline_animation
+R1
+R2
+!i10b 1
+!s100 @jX988;b30J`W:=`@7FYG1
+I810PoBCk[ejZM[KB<KSan2
+R3
+Z15 !s105 line_animation_sv_unit
+S1
+R0
+Z16 w1572455711
+Z17 8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/line_animation.sv
+Z18 FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/line_animation.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+Z19 !s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/line_animation.sv|
+Z20 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/line_animation.sv|
+!i113 1
+R12
+R13
+R14
+vline_animation_testbech
+R1
+R2
+!i10b 1
+!s100 E`1QLXd[:BGJgcDQImPza1
+I21if2KG0[D6Y86C0;H;9]1
+R3
+R15
+S1
+R0
+R16
+R17
+R18
+L0 85
+R8
+r1
+!s85 0
+31
+R9
+R19
+R20
+!i113 1
+R12
+R13
+R14
+vline_drawer
+R1
+R2
+!i10b 1
+!s100 f9T]dK]afJNm:>Ukb1g<=3
+I0^9NbNnf?OKPJf;8GlACc1
+R3
+Z21 !s105 line_drawer_sv_unit
+S1
+R0
+Z22 w1572454268
+Z23 8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/line_drawer.sv
+Z24 FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/line_drawer.sv
+L0 5
+R8
+r1
+!s85 0
+31
+R9
+Z25 !s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/line_drawer.sv|
+Z26 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/line_drawer.sv|
+!i113 1
+R12
+R13
+R14
+vline_drawer_testbench
+R1
+R2
+!i10b 1
+!s100 7jik2NO_nMFb[PEb[lS8l1
+IZb:J>ol;QdZQ]@QDH^<C00
+R3
+R21
+S1
+R0
+R22
+R23
+R24
+L0 88
+R8
+r1
+!s85 0
+31
+R9
+R25
+R26
+!i113 1
+R12
+R13
+R14
+vVGA_framebuffer
+R1
+R2
+!i10b 1
+!s100 em3AZ9X[Vj^2Y7e@^DH9K0
+Izn`NF;aciOdoR>jl=>cBG1
+R3
+!s105 VGA_framebuffer_sv_unit
+S1
+R0
+w1571936427
+8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/VGA_framebuffer.sv
+FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/VGA_framebuffer.sv
+L0 7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/VGA_framebuffer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/VGA_framebuffer.sv|
+!i113 1
+R12
+R13
+R14
+n@v@g@a_framebuffer

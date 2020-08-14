@@ -1,0 +1,122 @@
+# Reading D:/Software/Quartus/modelsim_ase/tcl/vsim/pref.tcl
+# do DE1_SoC_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Software/Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab3 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/VGA_framebuffer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:02 on Oct 30,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/VGA_framebuffer.sv 
+# -- Compiling module VGA_framebuffer
+# 
+# Top level modules:
+# 	VGA_framebuffer
+# End time: 10:17:02 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab3 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/line_drawer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:02 on Oct 30,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/line_drawer.sv 
+# -- Compiling module line_drawer
+# -- Compiling module line_drawer_testbench
+# 
+# Top level modules:
+# 	line_drawer_testbench
+# End time: 10:17:02 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab3 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/line_animation.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:02 on Oct 30,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/line_animation.sv 
+# -- Compiling module line_animation
+# -- Compiling module line_animation_testbech
+# 
+# Top level modules:
+# 	line_animation_testbech
+# End time: 10:17:02 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab3 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/DE1_SoC.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:02 on Oct 30,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 10:17:02 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.DE1_SoC_testbench
+# vsim work.DE1_SoC_testbench 
+# Start time: 10:17:09 on Oct 30,2019
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.VGA_framebuffer
+# Loading work.line_drawer
+# Loading work.line_animation
+# ** Warning: (vsim-3015) C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/DE1_SoC.sv(31): [PCDPC] - Port size (1) does not match connection size (32) for port 'reset'. The port definition is at: C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/VGA_framebuffer.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/d/fb File: C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/VGA_framebuffer.sv
+add wave -position end  sim:/DE1_SoC_testbench/d/SW[9]
+add wave -position end  sim:/DE1_SoC_testbench/d/SW[9]
+add wave -position end  sim:/DE1_SoC_testbench/d/CLOCK_50
+add wave -position 1  sim:/DE1_SoC_testbench/d/x0
+add wave -position 2  sim:/DE1_SoC_testbench/d/y0
+add wave -position 3  sim:/DE1_SoC_testbench/d/x1
+add wave -position 4  sim:/DE1_SoC_testbench/d/y1
+add wave -position 5  sim:/DE1_SoC_testbench/d/x
+add wave -position 6  sim:/DE1_SoC_testbench/d/y
+add wave -position 7  sim:/DE1_SoC_testbench/d/color
+add wave -position 8  sim:/DE1_SoC_testbench/d/new_line
+run -all
+# Break key hit
+# Simulation stop requested.
+vsim work.line_animation_testbech
+# End time: 10:18:47 on Oct 30,2019, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 1
+# vsim work.line_animation_testbech 
+# Start time: 10:18:47 on Oct 30,2019
+# Loading sv_std.std
+# Loading work.line_animation_testbech
+# Loading work.line_animation
+add wave -position end  sim:/line_animation_testbech/x0
+add wave -position end  sim:/line_animation_testbech/y0
+add wave -position end  sim:/line_animation_testbech/x1
+add wave -position end  sim:/line_animation_testbech/y1
+add wave -position end  sim:/line_animation_testbech/color
+add wave -position end  sim:/line_animation_testbech/reset
+add wave -position end  sim:/line_animation_testbech/clk
+add wave -position end  sim:/line_animation_testbech/new_line
+run -all
+# Break key hit
+# Break in Module line_animation_testbech at C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/line_animation.sv line 94
+vsim work.line_drawer_testbench
+# End time: 10:20:27 on Oct 30,2019, Elapsed time: 0:01:40
+# Errors: 0, Warnings: 0
+# vsim work.line_drawer_testbench 
+# Start time: 10:20:27 on Oct 30,2019
+# Loading sv_std.std
+# Loading work.line_drawer_testbench
+# Loading work.line_drawer
+add wave -position end  sim:/line_drawer_testbench/clk
+add wave -position end  sim:/line_drawer_testbench/reset
+add wave -position end  sim:/line_drawer_testbench/x0
+add wave -position end  sim:/line_drawer_testbench/y0
+add wave -position end  sim:/line_drawer_testbench/x1
+add wave -position end  sim:/line_drawer_testbench/y1
+add wave -position end  sim:/line_drawer_testbench/x
+add wave -position end  sim:/line_drawer_testbench/y
+run -all
+# ** Note: $stop    : C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/line_drawer.sv(223)
+#    Time: 12250 ps  Iteration: 1  Instance: /line_drawer_testbench
+# Break in Module line_drawer_testbench at C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab3/line_drawer.sv line 223
+# End time: 10:21:25 on Oct 30,2019, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 0

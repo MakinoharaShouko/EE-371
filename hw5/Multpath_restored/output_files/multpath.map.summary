@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Tue Nov 19 21:13:10 2019
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+Revision Name : multpath
+Top-level Entity Name : multpath
+Family : MAX 10
+Total logic elements : 13
+    Total combinational functions : 5
+    Dedicated logic registers : 13
+Total registers : 13
+Total pins : 2
+Total virtual pins : 13
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

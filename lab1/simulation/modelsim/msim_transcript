@@ -1,0 +1,126 @@
+# Reading D:/Software/Quartus/modelsim_ase/tcl/vsim/pref.tcl
+# do DE1_SoC_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Software/Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab1 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/detectors.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:31:47 on Oct 01,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/detectors.sv 
+# -- Compiling module detectors
+# -- Compiling module detectors_testbench
+# 
+# Top level modules:
+# 	detectors_testbench
+# End time: 14:31:47 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab1 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/counter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:31:47 on Oct 01,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/counter.sv 
+# -- Compiling module counter
+# -- Compiling module counter_testbench
+# 
+# Top level modules:
+# 	counter_testbench
+# End time: 14:31:47 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab1 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/counter_update.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:31:47 on Oct 01,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/counter_update.sv 
+# -- Compiling module counter_update
+# 
+# Top level modules:
+# 	counter_update
+# End time: 14:31:47 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab1 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/seg7.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:31:47 on Oct 01,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/seg7.sv 
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# End time: 14:31:47 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab1 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/seg7_dec.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:31:47 on Oct 01,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/seg7_dec.sv 
+# -- Compiling module seg7_dec
+# 
+# Top level modules:
+# 	seg7_dec
+# End time: 14:31:47 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab1 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/display.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:31:47 on Oct 01,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/display.sv 
+# -- Compiling module display
+# -- Compiling module display_testbench
+# 
+# Top level modules:
+# 	display_testbench
+# End time: 14:31:47 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab1 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/DE1_SoC.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:31:47 on Oct 01,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 14:31:47 on Oct 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.DE1_SoC_testbench
+# vsim work.DE1_SoC_testbench 
+# Start time: 14:32:00 on Oct 01,2019
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.detectors
+# Loading work.counter
+# Loading work.counter_update
+# Loading work.display
+# Loading work.seg7
+# Loading work.seg7_dec
+# ** Warning: (vsim-3015) C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/display.sv(7): [PCDPC] - Port size (5) does not match connection size (32) for port 'val'. The port definition is at: C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/seg7.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/ds/dis/s File: C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/seg7.sv
+# ** Warning: (vsim-3015) C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/display.sv(8): [PCDPC] - Port size (5) does not match connection size (32) for port 'val_dec'. The port definition is at: C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/seg7_dec.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/ds/dis/sd File: C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/seg7_dec.sv
+# ** Warning: (vsim-3015) C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/display.sv(8): [PCDPC] - Port size (5) does not match connection size (32) for port 'val_dig'. The port definition is at: C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/seg7_dec.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/ds/dis/sd File: C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/seg7_dec.sv
+add wave -position end  sim:/DE1_SoC_testbench/SW[9]
+add wave -position end  sim:/DE1_SoC_testbench/KEY[3]
+add wave -position end  sim:/DE1_SoC_testbench/KEY[0]
+add wave -position end  sim:/DE1_SoC_testbench/clk
+add wave -position end  sim:/DE1_SoC_testbench/GPIO_0[22]
+add wave -position end  sim:/DE1_SoC_testbench/GPIO_0[18]
+add wave -position 5  sim:/DE1_SoC_testbench/GPIO_0[7]
+add wave -position 6  sim:/DE1_SoC_testbench/GPIO_0[3]
+add wave -position 7  sim:/DE1_SoC_testbench/GPIO_0[6]
+add wave -position 8  sim:/DE1_SoC_testbench/HEX0
+add wave -position 9  sim:/DE1_SoC_testbench/HEX1
+add wave -position 10  sim:/DE1_SoC_testbench/HEX2
+add wave -position 11  sim:/DE1_SoC_testbench/HEX3
+add wave -position 12  sim:/DE1_SoC_testbench/HEX4
+add wave -position 13  sim:/DE1_SoC_testbench/HEX5
+run -all
+# ** Note: $stop    : C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/DE1_SoC.sv(68)
+#    Time: 1950 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab1/DE1_SoC.sv line 68
+# End time: 14:34:28 on Oct 01,2019, Elapsed time: 0:02:28
+# Errors: 0, Warnings: 3

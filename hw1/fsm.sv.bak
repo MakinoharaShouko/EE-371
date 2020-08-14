@@ -1,0 +1,5 @@
+module fsm(in, out);
+	input logic in;
+	output logic out;
+	enum {[2:0]s} ps, ns;
+endmodule

@@ -1,0 +1,16 @@
+// increment one signle bit from a counter
+module counterLogic #(parameter WIDTH = 1) (update, in, old_in, count, ncount);
+	input logic [WIDTH:0]count;
+	input logic [7:0]in, old_in;
+	input logic update;
+	output logic ncount;
+
+	always_comb begin
+		if((old_in != in) & update)
+		// increment the bit
+			ncount = count[WIDTH] ^ &count[WIDTH-1:0];
+		else
+		// hold on to the original value
+			ncount = count[WIDTH];
+	end
+endmodule

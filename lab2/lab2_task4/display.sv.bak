@@ -1,0 +1,22 @@
+module display(SW, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, q, rdaddress);
+	input logic [9:0] SW;
+	input logic [4:0] rdaddress;
+	input logic [3:0] q;
+	output logic [6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;
+	
+	seg7 read(.val(q), .leds(HEX0));
+	seg7 rdaddr(.val(rdaddress[3:0]), .leds(HEX2));
+	seg7 in(.val(SW[3:0]), leds(HEX1));
+	seg7 wraddr(.val(SW[7:4]), .leds(HEX4));
+	
+	always_comb begin
+		if (SW[8] == 1)
+			HEX5 = 7'b1111001; // 1
+		else
+			HEX5 = 7'b1000000; // 0
+		if (rdaddress[4] == 1)
+			HEX3 = 7'b1111001; // 1
+		else
+			HEX3 = 7'b1000000; // 0
+	end
+endmodule

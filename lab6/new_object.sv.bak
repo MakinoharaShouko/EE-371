@@ -1,0 +1,3 @@
+module new_object (old_queue, clk, new_queue);
+
+endmodule

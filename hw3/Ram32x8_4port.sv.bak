@@ -1,0 +1,16 @@
+module Ram32x8_4port (
+	input logic clk, reset, wr_en, startCyc, // WriteEnable, startCycle(partB)
+	input logic [7:0] w_data, // write data
+	input logic [ ] w_addr, // write address
+	input logic [ ] r_addr1, // read port 1 address
+	input logic [ ] r_addr2, // read port 2 address
+	input logic [ ] r_addr3, // read port 3 address
+	output logic [7:0] r_port1, // read data output of port 1
+	output logic [31:0] r_port2, // read data output of port 2
+	output logic [3:0] r_port3 // read data output of port 3
+	);
+	logic [7:0] rp1a, rp1b; // ReadPort1A, ReadPort1B
+	logic [31:0] rp2a, rp2b; // ReadPort2A, ReadPort2B
+	logic [3:0] rp3a, rp3b; // ReadPort3A, ReadPort3B
+	logic [ ] ctr, nctr; // Counter, nextCounterValue
+	enum {normal, cycling} ps, ns;

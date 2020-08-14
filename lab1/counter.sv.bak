@@ -1,0 +1,4 @@
+module counter(inc, dec, display);
+	input logic inc, dec;
+	output logic [5:0][6:0]lights;
+endmodule

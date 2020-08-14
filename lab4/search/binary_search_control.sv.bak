@@ -1,0 +1,18 @@
+module binary_search_control();
+
+	always_comb begin
+		case (ps)
+			S1: if (s) ns = S2;
+				 else ns = S1;
+			S2: ns = S2_5;
+			S2_5: if (start == end_point) ns = S4;
+					else ns = S2;
+			S3: if (s) ns = S3;
+				 else ns = S1;
+			S4: if (s) ns = S4;
+				 else ns =S1;
+		endcase
+		z = (q == in);
+		addr = (end_point - start) / 2 + start;
+	end
+endmodule

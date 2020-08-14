@@ -1,0 +1,95 @@
+# Reading D:/Software/Quartus/modelsim_ase/tcl/vsim/pref.tcl
+# do task4_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Software/Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab2/lab2_task4 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/ram32x4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:15:50 on Oct 15,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/ram32x4.v 
+# -- Compiling module ram32x4
+# 
+# Top level modules:
+# 	ram32x4
+# End time: 11:15:50 on Oct 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab2/lab2_task4 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/seg7.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:15:50 on Oct 15,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/seg7.sv 
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# End time: 11:15:50 on Oct 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab2/lab2_task4 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/display.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:15:50 on Oct 15,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/display.sv 
+# -- Compiling module display
+# 
+# Top level modules:
+# 	display
+# End time: 11:15:50 on Oct 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab2/lab2_task4 {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/task4.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:15:50 on Oct 15,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/task4.sv 
+# -- Compiling module task4
+# -- Compiling module clock_divider
+# ** Error (suppressible): (vlog-7061) C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/task4.sv(46): Variable 'divided_clocks' driven in an always_ff block, may not be driven by any other process. See C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/task4.sv(43).
+# -- Compiling module task4_testbench
+# End time: 11:15:51 on Oct 15,2019, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: D:/Software/Quartus/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./task4_run_msim_rtl_verilog.do line 11
+# D:/Software/Quartus/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab2/lab2_task4 {C:/Users/Jiarong Qian/Documents/Course ..."
+vsim work.task4_testbench
+# vsim work.task4_testbench 
+# Start time: 11:16:10 on Oct 15,2019
+# Loading sv_std.std
+# Loading work.task4_testbench
+# Loading work.task4
+# ** Error: (vsim-3033) C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/task4.sv(11): Instantiation of 'clock_divider' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /task4_testbench/t4 File: C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/task4.sv
+#         Searched libraries:
+#             C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/simulation/modelsim/rtl_work
+# Loading work.ram32x4
+# ** Error: (vsim-3033) C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/ram32x4.v(66): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /task4_testbench/t4/ram File: C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/ram32x4.v
+#         Searched libraries:
+#             C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/simulation/modelsim/rtl_work
+# Loading work.display
+# Loading work.seg7
+# Error loading design
+# End time: 11:16:10 on Oct 15,2019, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vsim work.task4_testbench -Lf altera_mf_ver
+# vsim work.task4_testbench -Lf altera_mf_ver 
+# Start time: 11:17:23 on Oct 15,2019
+# Loading sv_std.std
+# Loading work.task4_testbench
+# Loading work.task4
+# ** Error: (vsim-3033) C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/task4.sv(11): Instantiation of 'clock_divider' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /task4_testbench/t4 File: C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/task4.sv
+#         Searched libraries:
+#             D:/Software/Quartus/modelsim_ase/altera/verilog/altera_mf
+#             C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/simulation/modelsim/rtl_work
+# Loading work.ram32x4
+# Loading altera_mf_ver.altsyncram
+# Loading work.display
+# Loading work.seg7
+# Error loading design
+# End time: 11:17:24 on Oct 15,2019, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0

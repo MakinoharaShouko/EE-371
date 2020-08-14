@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at binary_search.sv(27): always construct contains both blocking and non-blocking assignments File: C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/binary_search.sv Line: 27

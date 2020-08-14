@@ -1,0 +1,54 @@
+module line_animation (x0, y0, x1, y1, x, y, color, clk, reset);
+	input logic [10:0] x0, y0, x1, y1;
+	output logic [10:0] x, y;
+	output logic color, reset, clk;
+	
+	enum {res, refresh, draw} ps, ns;
+	
+	always_comb begin
+		if (reset) begin
+			if (ps == draw)
+				ns = refresh;
+			else
+				ns = res;
+		end
+		else if (ps == draw)
+				ns = refresh;
+		else
+			ns = draw;
+	end
+	
+	always_ff@(posedge clk[15]) begin
+		if (ps == refresh) begin
+			color <= 0;
+			if (~reset) begin
+				if (x0_inc)
+					x0 <= x0 + 5;
+				else
+					x0 <= x0 - 5;
+
+				if (x1_inc)
+					x1 <= x1 + 5;
+				else
+					x1 <= x1 - 5;
+			end
+		end
+		else if (ps == draw)begin
+			color <= 1;
+			if (x0 == 300 || x0 == 0)
+				x0_inc <= ~x0_inc;
+			if (x1 == 300 || x1 == 0)
+				x1_inc <= ~x1_inc;
+		end
+		else begin
+			color <= 0;
+			x0 <= 0;
+			y0 <= 0;
+			x1 <= 300;
+			y1 <= 300;
+			x0_inc <= 1;
+			x1_inc <= 0;
+		end
+		ps <= ns;
+	end
+endmodule

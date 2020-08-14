@@ -1,0 +1,12 @@
+virtual class object;
+endclass
+
+class signle extends object;
+	int up;
+	int down;
+	int left;
+	int right;
+endclass
+
+class double extends object;
+endclass

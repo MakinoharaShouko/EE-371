@@ -1,0 +1,2 @@
+module binary_search (reset, clk, s, in);
+endmodule

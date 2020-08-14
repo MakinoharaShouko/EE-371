@@ -1,0 +1,151 @@
+# Reading D:/Software/Quartus/modelsim_ase/tcl/vsim/pref.tcl
+# do DE1_SoC_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Software/Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab5/DE1_SoC {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/clock_generator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:35:50 on Nov 15,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/clock_generator.v 
+# -- Compiling module clock_generator
+# 
+# Top level modules:
+# 	clock_generator
+# End time: 20:35:50 on Nov 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab5/DE1_SoC {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/audio_and_video_config.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:35:50 on Nov 15,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/audio_and_video_config.v 
+# -- Compiling module audio_and_video_config
+# 
+# Top level modules:
+# 	audio_and_video_config
+# End time: 20:35:50 on Nov 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab5/DE1_SoC {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_slow_clock_generator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:35:50 on Nov 15,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_slow_clock_generator.v 
+# -- Compiling module Altera_UP_Slow_Clock_Generator
+# 
+# Top level modules:
+# 	Altera_UP_Slow_Clock_Generator
+# End time: 20:35:50 on Nov 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab5/DE1_SoC {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_i2c_av_auto_initialize.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:35:50 on Nov 15,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_i2c_av_auto_initialize.v 
+# -- Compiling module Altera_UP_I2C_AV_Auto_Initialize
+# 
+# Top level modules:
+# 	Altera_UP_I2C_AV_Auto_Initialize
+# End time: 20:35:50 on Nov 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab5/DE1_SoC {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_i2c.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:35:50 on Nov 15,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_i2c.v 
+# -- Compiling module Altera_UP_I2C
+# 
+# Top level modules:
+# 	Altera_UP_I2C
+# End time: 20:35:50 on Nov 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab5/DE1_SoC {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/audio_codec.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:35:50 on Nov 15,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 20:35:50 on Nov 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab5/DE1_SoC {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_clock_edge.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:35:50 on Nov 15,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_clock_edge.v 
+# -- Compiling module Altera_UP_Clock_Edge
+# 
+# Top level modules:
+# 	Altera_UP_Clock_Edge
+# End time: 20:35:50 on Nov 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab5/DE1_SoC {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_audio_in_deserializer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:35:50 on Nov 15,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_audio_in_deserializer.v 
+# -- Compiling module Altera_UP_Audio_In_Deserializer
+# 
+# Top level modules:
+# 	Altera_UP_Audio_In_Deserializer
+# End time: 20:35:51 on Nov 15,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab5/DE1_SoC {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_audio_bit_counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:35:51 on Nov 15,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_audio_bit_counter.v 
+# -- Compiling module Altera_UP_Audio_Bit_Counter
+# 
+# Top level modules:
+# 	Altera_UP_Audio_Bit_Counter
+# End time: 20:35:51 on Nov 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab5/DE1_SoC {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_sync_fifo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:35:51 on Nov 15,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_sync_fifo.v 
+# -- Compiling module Altera_UP_SYNC_FIFO
+# 
+# Top level modules:
+# 	Altera_UP_SYNC_FIFO
+# End time: 20:35:51 on Nov 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab5/DE1_SoC {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_audio_out_serializer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:35:51 on Nov 15,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/altera_up_audio_out_serializer.v 
+# -- Compiling module Altera_UP_Audio_Out_Serializer
+# 
+# Top level modules:
+# 	Altera_UP_Audio_Out_Serializer
+# End time: 20:35:51 on Nov 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab5/DE1_SoC {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/average_filter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:35:51 on Nov 15,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/average_filter.sv 
+# -- Compiling module average_filter
+# -- Compiling module average_filter_testbench
+# 
+# Top level modules:
+# 	average_filter_testbench
+# End time: 20:35:51 on Nov 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.average_filter_testbench
+# vsim work.average_filter_testbench 
+# Start time: 20:35:57 on Nov 15,2019
+# Loading sv_std.std
+# Loading work.average_filter_testbench
+# Loading work.average_filter
+add wave -position end  sim:/average_filter_testbench/data_in
+add wave -position end  sim:/average_filter_testbench/data_out
+add wave -position end  sim:/average_filter_testbench/clk
+add wave -position end  sim:/average_filter_testbench/read
+add wave -position end  sim:/average_filter_testbench/reset
+run -all
+# ** Note: $stop    : C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/average_filter.sv(87)
+#    Time: 2250 ps  Iteration: 1  Instance: /average_filter_testbench
+# Break in Module average_filter_testbench at C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab5/DE1_SoC/average_filter.sv line 87
+# End time: 20:37:01 on Nov 15,2019, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 0

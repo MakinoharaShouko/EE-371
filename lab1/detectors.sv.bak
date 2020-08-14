@@ -1,0 +1,5 @@
+module detectors(a, b, enter, exit);
+	input logic a, b;
+	output logic enter exit;
+	enum {} ps, ns;
+endmodule

@@ -1,0 +1,2 @@
+module bitCounter #(parameter width = 8) (reset, );
+endmodule

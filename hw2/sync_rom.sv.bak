@@ -1,0 +1,27 @@
+module sync_rom(#parameter width = 4)
+	(
+	 input logic clk,
+	 input logic [2 * width - 1:0] addr,
+	 output logic [width - 1:0] data
+	);
+	
+	logic [width - 1:0] rom [0:2 ** (2 * width)];
+	logic [width - 1:0] data_reg;
+	
+	initial
+		$readmemb("data.txt", rom);
+		
+	always_ff@(posedge clk)
+		data_reg <= rom[addr];
+		
+	assign data = data_reg;
+endmodule
+
+module sync_rom_testbench_4();
+	logic clk;
+	parameter width = 4;
+	logic [width - 1:0] data;
+	logic clk;
+	logic [2 * width - 1:0] addr;
+	
+endmodule

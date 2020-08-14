@@ -1,0 +1,132 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/simulation/modelsim
+vdisplay
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1571163350
+!i10b 1
+!s100 No2emWcmoHiU<YPOe=eJg2
+IHW^M9=nF;NDNLRl8XoN;72
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 display_sv_unit
+S1
+R0
+w1571083843
+8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/display.sv
+FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/display.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1571163350.000000
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/display.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/display.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work {+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4}
+Z8 tCvgOpt 0
+vram32x4
+R2
+!i10b 1
+!s100 9JJedTWeU:e;4^:[EX2fk2
+IBWKo7TN826559T97Y3fiQ2
+R3
+R0
+w1571005358
+8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/ram32x4.v
+FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/ram32x4.v
+L0 40
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/ram32x4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/ram32x4.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4}
+R8
+vseg7
+R1
+R2
+!i10b 1
+!s100 BWY=k2BOSAAaHg36g_e1i2
+I67S@4A[1_`McigeM4SFZR0
+R3
+!s105 seg7_sv_unit
+S1
+R0
+w1571083078
+8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/seg7.sv
+FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/seg7.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/seg7.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/seg7.sv|
+!i113 1
+R6
+R7
+R8
+vtask4
+R1
+Z9 !s110 1571163351
+!i10b 1
+!s100 BGolEP@OU5?N>1EU<mM>E3
+IBTT3]eQbfYjSLWC:X@4RG2
+R3
+Z10 !s105 task4_sv_unit
+S1
+R0
+Z11 w1571163120
+Z12 8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/task4.sv
+Z13 FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/task4.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+Z14 !s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/task4.sv|
+Z15 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab2/lab2_task4/task4.sv|
+!i113 1
+R6
+R7
+R8
+vtask4_testbench
+R1
+R9
+!i10b 1
+!s100 Q_h0VniB>Fg>dLONDN<hl3
+ICf7B4_74Vk^;CXe^NImBk3
+R3
+R10
+S1
+R0
+R11
+R12
+R13
+L0 51
+R4
+r1
+!s85 0
+31
+R5
+R14
+R15
+!i113 1
+R6
+R7
+R8

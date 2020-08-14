@@ -1,0 +1,5 @@
+module counter_update(inc, dec, count, ncount);
+	input logic [4:0] count;
+	input logic inc, dec;
+	output logic [4:0] ncount;
+endmodule

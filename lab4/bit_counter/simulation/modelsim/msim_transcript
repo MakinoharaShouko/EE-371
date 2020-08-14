@@ -1,0 +1,63 @@
+# Reading D:/Software/Quartus/modelsim_ase/tcl/vsim/pref.tcl
+# do DE1_SoC_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Software/Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab4/bit_counter {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/bit_counter/bitCounter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:44:02 on Nov 03,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/bit_counter" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/bit_counter/bitCounter.sv 
+# -- Compiling module bitCounter
+# -- Compiling module bitCounter_testbench
+# ** Warning: C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/bit_counter/bitCounter.sv(67): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	bitCounter_testbench
+# End time: 15:44:02 on Nov 03,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab4/bit_counter {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/bit_counter/seg7.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:44:02 on Nov 03,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/bit_counter" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/bit_counter/seg7.sv 
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# End time: 15:44:02 on Nov 03,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/au2019/EE\ 371/lab4/bit_counter {C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/bit_counter/DE1_SoC.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:44:02 on Nov 03,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/bit_counter" C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/bit_counter/DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# 
+# Top level modules:
+# 	DE1_SoC
+# End time: 15:44:02 on Nov 03,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.bitCounter_testbench
+# vsim work.bitCounter_testbench 
+# Start time: 15:44:14 on Nov 03,2019
+# Loading sv_std.std
+# Loading work.bitCounter_testbench
+# Loading work.bitCounter
+add wave -position end  sim:/bitCounter_testbench/in
+add wave -position end  sim:/bitCounter_testbench/count
+add wave -position end  sim:/bitCounter_testbench/reset
+add wave -position end  sim:/bitCounter_testbench/s
+add wave -position end  sim:/bitCounter_testbench/clk
+add wave -position end  sim:/bitCounter_testbench/Done
+run -all
+# ** Note: $stop    : C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/bit_counter/bitCounter.sv(78)
+#    Time: 1050 ps  Iteration: 1  Instance: /bitCounter_testbench
+# Break in Module bitCounter_testbench at C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/bit_counter/bitCounter.sv line 78
+# End time: 15:45:21 on Nov 03,2019, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 0

@@ -1,0 +1,184 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/simulation/modelsim
+vbinary_search
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1573248498
+!i10b 1
+!s100 75`YoIoj<a:4DP1WnD8Gm0
+I^;Fg@LICZ^nObaZR5XQJ73
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 binary_search_sv_unit
+S1
+R0
+Z5 w1573190108
+Z6 8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/binary_search.sv
+Z7 FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/binary_search.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1573248498.000000
+Z10 !s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/binary_search.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/binary_search.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search}
+Z14 tCvgOpt 0
+vbinary_search_control
+R1
+R2
+!i10b 1
+!s100 9N53oH0Se^NB[SD[k:fb83
+I9Z]@e1[D5fzH_MmUlmbVA0
+R3
+!s105 binary_search_control_sv_unit
+S1
+R0
+w1573194643
+8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/binary_search_control.sv
+FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/binary_search_control.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/binary_search_control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/binary_search_control.sv|
+!i113 1
+R12
+R13
+R14
+vbinary_search_testbench
+R1
+R2
+!i10b 1
+!s100 MVYn8:6O>jaSXI5oYG0]V0
+IAUaUco5@iV[n2ihXIA9[`2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 18
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vDE1_SoC
+R1
+R2
+!i10b 1
+!s100 Dd10WnM1YKmJ``m@3=SKL2
+Id482ObR_dhKA>N@F:Igg70
+R3
+Z15 !s105 DE1_SoC_sv_unit
+S1
+R0
+Z16 w1573248408
+Z17 8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/DE1_SoC.sv
+Z18 FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/DE1_SoC.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+Z19 !s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/DE1_SoC.sv|
+Z20 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/DE1_SoC.sv|
+!i113 1
+R12
+R13
+R14
+n@d@e1_@so@c
+vDE1_SoC_testbench
+R1
+R2
+!i10b 1
+!s100 NoRLce=z3CE0aL`4Wlfzi0
+Ij?bZ:4b3^K8H@YD?W?m]A0
+R3
+R15
+S1
+R0
+R16
+R17
+R18
+L0 15
+R8
+r1
+!s85 0
+31
+R9
+R19
+R20
+!i113 1
+R12
+R13
+R14
+n@d@e1_@so@c_testbench
+vram32x8
+R2
+!i10b 1
+!s100 750]G@hjcm2QQXlE2F24e3
+Ih[kGMNF3d4]YdX=FMSY[31
+R3
+R0
+w1573234828
+8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/ram32x8.v
+FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/ram32x8.v
+L0 40
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/ram32x8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/ram32x8.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search}
+R14
+vseg7
+R1
+R2
+!i10b 1
+!s100 >]MXkFn_b6eY;QI6I_cfn2
+IO0PTSU3YOP>99=NCnAGgW3
+R3
+!s105 seg7_sv_unit
+S1
+R0
+w1572822044
+8C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/seg7.sv
+FC:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/seg7.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/seg7.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search|C:/Users/Jiarong Qian/Documents/Course Materials/au2019/EE 371/lab4/search/seg7.sv|
+!i113 1
+R12
+R13
+R14
